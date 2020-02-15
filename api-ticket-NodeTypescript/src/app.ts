@@ -19,7 +19,7 @@ class App {
     }
 
     private database() : void {
-        mongoose.connect('mongodb+srv://luis:luis7410@cluster0-b0hh1.mongodb.net/test?retryWrites=true&w=majority', {
+        mongoose.connect('mongodb+srv://username:password@cluster0-b0hh1.mongodb.net/test?retryWrites=true&w=majority', {
             useNewUrlParser:true
         })
     }
