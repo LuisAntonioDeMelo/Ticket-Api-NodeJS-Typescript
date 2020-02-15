@@ -15,12 +15,3 @@ UserSchema.methods.fullname = function():string {
 }
 
 export default model<User>('User',UserSchema)
-
-//test Object
-//json.prototype(
-//    {
-       // "email":"tyluis20@gmail.com",
-       // "firstName":"Luis Antônio",
-       // "lastName":"de Melo Gomes"
-    //}
-//)
